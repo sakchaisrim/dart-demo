@@ -33,9 +33,12 @@ void main(){
   print("My dum is ${dum+200}");  // interpolation
   print("Convert dum to string is "+ dum.toString());
 
+  // String? sname;
+  // sname ="srimakorn";
 
-
-
-
+  String? sname;
+  sname ??= "srimakorn";
+  // ?? null coalescing operator
+  print(sname);
 
 }
